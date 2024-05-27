@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="https://mail.google.com" class="nav-link">Gmail</a>
+        <a href="https://www.google.com/imghp" class="nav-link">Images</a>
+        <a href="https://www.google.com/intl/en/about/products" class="nav-icon">
+            <img src="https://www.gstatic.com/images/branding/product/1x/gsa_48dp.png" alt="Google Apps">
+        </a>
+        <a href="https://myaccount.google.com" class="nav-icon">
+            <img src="https://www.gstatic.com/images/branding/product/1x/avatar_circle_blue_120dp.png" alt="Google Profile" class="profile-icon">
+        </a>
+    </div>
+    <div class="container">
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo">
+        </div>
+        <form class="search-form" onsubmit="return performSearch()">
+            <input type="text" id="search-input" class="search-input" placeholder="Search Google or type a URL">
+          
+            <img src="microphone-black-shape (1).png" alt="Microphone Icon" class="mic-icon">
+            <div class="buttons">
+                <button type="submit" class="search-button">Google Search</button>
+                <button type="button" class="lucky-button" onclick="feelingLucky()">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
